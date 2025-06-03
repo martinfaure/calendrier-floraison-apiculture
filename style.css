@@ -1,0 +1,182 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body {
+	padding: 20px;
+	background-color: #f7fafd;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+}
+
+.topsec {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	background-color: white;
+	padding: 10px;
+}
+
+h1 {
+	color: #38b031;
+	font-weight: 700;
+	font-size: 64px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	padding: 50px;
+	text-align: center;
+}
+main .pp {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 100%;
+	letter-spacing: -1%;
+	text-align: center;
+}
+main .ppp {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 100%;
+	letter-spacing: -1%;
+	text-align: center;
+}
+
+.param {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 15px;
+}
+
+.param input {
+	border: solid 2px #ebebeb;
+	border-radius: 999px;
+	padding: 20px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.param button {
+	background-color: #38b031;
+	border: none;
+	border-radius: 8px;
+	padding: 15px;
+	color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article {
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	font-family: "Plus Jakarta Sans", sans-serif;
+	padding: 10px;
+	text-align: start;
+}
+
+article .stars {
+	width: 20%;
+}
+
+.date {
+	font-weight: 800;
+}
+
+.specs {
+	display: flex;
+	justify-content: space-between;
+}
+
+.specs div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.specs .x {
+	width: 40%;
+}
+.specs span {
+	color: #b7b7b7;
+}
+
+article p {
+	color: #5e6778;
+}
+
+.div2 {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+ul {
+	display: none;
+}
+
+li:hover {
+	cursor: pointer;
+}
+button {
+	cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+	.param div {
+		display: flex;
+		width: 50%;
+		gap: 20px;
+	}
+	.param {
+		align-items: center;
+	}
+	.param button {
+		width: 100%;
+	}
+	ul {
+		display: flex;
+		list-style: none;
+		gap: 20px;
+	}
+	nav {
+		align-items: center;
+	}
+
+	article {
+		display: flex;
+		flex-direction: row;
+	}
+
+	article .stars {
+		width: 15%;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.param button {
+		width: 15%;
+	}
+	article .stars {
+		width: 7%;
+	}
+	nav {
+		justify-content: space-between;
+		width: 96%;
+	}
+}
