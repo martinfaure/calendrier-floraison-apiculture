@@ -99,6 +99,52 @@ article .stars {
 	font-weight: 800;
 }
 
+.startscontent {
+	background-color: #0a4c7b;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 5px;
+	width: 20%;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+.startscontent3 {
+	background-color: #3f774a;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 5px;
+	width: 35%;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+.startscontent1 {
+	background-color: #613f77;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 5px;
+	width: 20%;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+.startscontent .stars {
+	width: 50%;
+}
+
+.datee {
+	display: flex;
+	flex-direction: row;
+}
+
+.flo {
+	color: #b7b7b7;
+}
+
 .specs {
 	display: flex;
 	justify-content: space-between;
@@ -110,11 +156,24 @@ article .stars {
 	align-items: center;
 }
 
-.specs .x {
-	width: 40%;
+.x {
+	width: 80%;
 }
 .specs span {
 	color: #b7b7b7;
+}
+
+.progress1 {
+	width: 100%;
+	accent-color: #613f77;
+}
+.progress2 {
+	width: 100%;
+	accent-color: #0a4c7b;
+}
+.progress3 {
+	width: 100%;
+	accent-color: #3f774a;
 }
 
 article p {
@@ -135,6 +194,10 @@ li:hover {
 }
 button {
 	cursor: pointer;
+}
+
+.imgres {
+	width: 225px;
 }
 
 @media screen and (min-width: 700px) {
