@@ -5,7 +5,7 @@
 	font-family: "Poppins", sans-serif;
 }
 body {
-	padding: 20px;
+	padding: 10px;
 	background-color: #f7fafd;
 }
 
@@ -127,7 +127,7 @@ article .stars {
 	flex-direction: row;
 	justify-content: space-between;
 	gap: 5px;
-	width: 20%;
+	width: 15%;
 	padding: 5px;
 	border-radius: 8px;
 }
@@ -156,9 +156,6 @@ article .stars {
 	align-items: center;
 }
 
-.x {
-	width: 80%;
-}
 .specs span {
 	color: #b7b7b7;
 }
@@ -231,7 +228,7 @@ button {
 	}
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1400px) {
 	.param button {
 		width: 15%;
 	}
@@ -241,5 +238,14 @@ button {
 	nav {
 		justify-content: space-between;
 		width: 96%;
+	}
+	.startscontent {
+		width: 5%;
+	}
+	.specs {
+		width: 25%;
+	}
+	.specs .pp {
+		width: 50%;
 	}
 }
